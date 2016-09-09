@@ -4,7 +4,7 @@ import mysql.connector
 
 
 # Variable
-cnx = mysql.connector.connect(user='root', password='01122rfg@', host='127.0.0.1', database='spooncount')
+cnx = mysql.connector.connect()
 cursor = cnx.cursor()
 root = Tk()
 root.geometry('500x400')
