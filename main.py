@@ -4,6 +4,7 @@ import mysql.connector
 
 
 # Variable
+__author__ = "hiperbolt"
 cnx = mysql.connector.connect()
 cursor = cnx.cursor()
 root = Tk()
